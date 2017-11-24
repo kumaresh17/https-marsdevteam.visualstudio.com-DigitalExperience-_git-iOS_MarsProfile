@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Dosis-regular.ttf">
+            <string>Dosis-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MPShareSourceOneDriveableViewCell" rowHeight="232" id="KGk-i7-Jjw" customClass="MPShareSourceOneDriveableViewCell" customModule="MarsProfile" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="473" height="232"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="473" height="231.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Office 365" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBS-S2-9NO">
+                        <rect key="frame" x="135.5" y="22.5" width="94" height="30.5"/>
+                        <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="24"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our group of productivity applications and services including Skype for Business, Sharepoint and Outlook." lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfW-Ae-d3V">
+                        <rect key="frame" x="136" y="61.5" width="310" height="76"/>
+                        <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="20"/>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="o365logo" translatesAutoresizingMaskIntoConstraints="NO" id="sA0-w2-FuL">
+                        <rect key="frame" x="10" y="53" width="115.5" height="115.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="sA0-w2-FuL" secondAttribute="height" multiplier="1:1" id="MlI-Yi-Tof"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Includes:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8c-Kq-e6K">
+                        <rect key="frame" x="135.5" y="173.5" width="80.5" height="30.5"/>
+                        <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="24"/>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skype" translatesAutoresizingMaskIntoConstraints="NO" id="ldR-zX-xR3">
+                        <rect key="frame" x="226" y="164" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Ol8-Yx-3o4">
+                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                            </constraint>
+                            <constraint firstAttribute="width" secondItem="ldR-zX-xR3" secondAttribute="height" multiplier="1:1" id="cn0-oX-CVh"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sharepoint" translatesAutoresizingMaskIntoConstraints="NO" id="3EG-s0-N33">
+                        <rect key="frame" x="281" y="164" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="3EG-s0-N33" secondAttribute="height" multiplier="1:1" id="zkG-x7-Fni"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="outlook" translatesAutoresizingMaskIntoConstraints="NO" id="Jl9-Sf-YIz">
+                        <rect key="frame" x="336" y="164" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Jl9-Sf-YIz" secondAttribute="height" multiplier="1:1" id="Yxe-wO-3mY"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9d2-T2-7Uo">
+                        <rect key="frame" x="367" y="63" width="96" height="96"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="9d2-T2-7Uo" secondAttribute="height" multiplier="1:1" id="Frd-bl-A1j"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="70" id="QGK-nj-epI">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                        </constraints>
+                        <state key="normal" backgroundImage="unchecked_checkbox"/>
+                        <state key="selected" backgroundImage="checked_checkbox"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sA0-w2-FuL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="11a-tl-cjo"/>
+                    <constraint firstItem="a8c-Kq-e6K" firstAttribute="leading" secondItem="xfW-Ae-d3V" secondAttribute="leading" id="1K3-pU-VIQ"/>
+                    <constraint firstItem="sA0-w2-FuL" firstAttribute="width" secondItem="sA0-w2-FuL" secondAttribute="height" multiplier="1:1" id="2eJ-f7-FHi"/>
+                    <constraint firstItem="9d2-T2-7Uo" firstAttribute="centerY" secondItem="sA0-w2-FuL" secondAttribute="centerY" id="Bf1-lY-czb"/>
+                    <constraint firstItem="3EG-s0-N33" firstAttribute="height" secondItem="ldR-zX-xR3" secondAttribute="height" id="EPu-7H-c6T"/>
+                    <constraint firstItem="xfW-Ae-d3V" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.55" id="FNS-1a-cJr">
+                        <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                    </constraint>
+                    <constraint firstItem="sA0-w2-FuL" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.5" id="IIF-DP-YNj"/>
+                    <constraint firstItem="9d2-T2-7Uo" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailing" constant="-10" id="P6a-O3-1lc"/>
+                    <constraint firstItem="Jl9-Sf-YIz" firstAttribute="centerY" secondItem="3EG-s0-N33" secondAttribute="centerY" id="PcT-O6-MU0"/>
+                    <constraint firstItem="Jl9-Sf-YIz" firstAttribute="height" secondItem="ldR-zX-xR3" secondAttribute="height" id="QpL-nu-cfM"/>
+                    <constraint firstItem="ldR-zX-xR3" firstAttribute="leading" secondItem="a8c-Kq-e6K" secondAttribute="trailing" constant="10" id="RbX-oT-9DL"/>
+                    <constraint firstItem="ldR-zX-xR3" firstAttribute="centerY" secondItem="a8c-Kq-e6K" secondAttribute="centerY" id="WSt-Me-fOn"/>
+                    <constraint firstItem="YBS-S2-9NO" firstAttribute="leading" secondItem="sA0-w2-FuL" secondAttribute="trailing" constant="10" id="awa-qi-8dT"/>
+                    <constraint firstItem="Jl9-Sf-YIz" firstAttribute="leading" secondItem="3EG-s0-N33" secondAttribute="trailing" constant="5" id="ffo-HN-h6F"/>
+                    <constraint firstItem="3EG-s0-N33" firstAttribute="leading" secondItem="ldR-zX-xR3" secondAttribute="trailing" constant="5" id="fom-iT-O21"/>
+                    <constraint firstItem="a8c-Kq-e6K" firstAttribute="top" secondItem="sA0-w2-FuL" secondAttribute="bottom" priority="750" constant="5" id="gDs-Zk-8dC"/>
+                    <constraint firstItem="xfW-Ae-d3V" firstAttribute="leading" secondItem="YBS-S2-9NO" secondAttribute="leading" id="gmR-Jd-zC6"/>
+                    <constraint firstItem="3EG-s0-N33" firstAttribute="centerY" secondItem="ldR-zX-xR3" secondAttribute="centerY" id="hyE-8t-XGD"/>
+                    <constraint firstItem="xfW-Ae-d3V" firstAttribute="top" secondItem="YBS-S2-9NO" secondAttribute="bottom" constant="8" id="mVT-If-SyQ"/>
+                    <constraint firstItem="YBS-S2-9NO" firstAttribute="bottom" secondItem="sA0-w2-FuL" secondAttribute="top" id="ogL-zu-dkv"/>
+                    <constraint firstItem="sA0-w2-FuL" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.4" id="qol-fZ-uB9"/>
+                    <constraint firstItem="sA0-w2-FuL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-5" id="smo-59-uEz"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="IIF-DP-YNj"/>
+                        <exclude reference="qol-fZ-uB9"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=compact">
+                    <mask key="constraints">
+                        <include reference="qol-fZ-uB9"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=regular">
+                    <mask key="constraints">
+                        <include reference="IIF-DP-YNj"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="sourceButton" destination="9d2-T2-7Uo" id="0HO-8V-1FC"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="48"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checked_checkbox" width="96" height="96"/>
+        <image name="o365logo" width="390" height="375"/>
+        <image name="outlook" width="1024" height="1024"/>
+        <image name="sharepoint" width="216" height="216"/>
+        <image name="skype" width="300" height="300"/>
+        <image name="unchecked_checkbox" width="96" height="96"/>
+    </resources>
+</document>
